@@ -1,10 +1,9 @@
-<h2>Petunjuk Penggunaan</h2>
+Petunjuk Penggunaan
 
 Download : http://kamus.karo.or.id
 
+Instalasi
 
-<b>Instalasi</b>
+Fedora 15/16/17
 
-<i>Fedora</i>
-
-
+yum install gambas3 -y
