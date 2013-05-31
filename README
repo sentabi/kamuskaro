@@ -1,9 +1,13 @@
-Petunjuk Penggunaan
-
-Download : http://kamus.karo.or.id
+Cara Instalasi
+============= 
 
 Instalasi
+```
+yum install gambas3 sqlite3 -y
+```
 
-Fedora 15/16/17
+dung e ban database gelarna ikoer.db bas $HOME, adina la lit databasena enda, la banci erdalan script enda :P
 
-yum install gambas3 -y
+
+-. sentabi .-
+
