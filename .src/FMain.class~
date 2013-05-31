@@ -1,0 +1,81 @@
+' Gambas class file
+
+Public con As New Connection
+Public MyRS As Result
+Public sql As String
+
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+Dim dataku As String
+con.Type = "sqlite3" 'type database
+con.Name = User.Home & "/ikoer.db" 'lokasi & nama file database
+con.Open
+Me.Center
+MyRS = con.Exec("SELECT COUNT(*)  as jumlah from kamus")
+'dataku = MyRS.count
+Label2.text = MyRS!jumlah
+kata.SetFocus
+End
+
+Public Sub Button1_Click()
+Dim sql As String
+Dim kamus As String
+Dim i As String
+arti.Clear
+If kata.Text = False Then 
+  Message.Error("anda belum mengetikkan kata")
+Else
+MyRS = con.Exec("select * from kamus where indo='" & kata.Text & "'")
+arti.Insert(MyRS!karo)
+Catch
+  Message.Title = "Ikoernaga"
+Message.error("" & kata.Text & " tidak ditemukan dalam database")
+'Message.error("saya", "makan", "ikan")
+Endif
+'Catch
+'Message.error(Error.text)
+    'Message.Error(masih Error )
+End
+
+
+
+Public Sub Label3_MouseDown()
+
+  
+
+End
+
+Public Sub MenuButton1_Click()
+
+
+End
+
+Public Sub Menu1_Click()
+
+  FMain.Close
+
+
+End
+
+Public Sub Help_Click()
+
+ 
+
+End
+
+Public Sub Tentang_Click()
+
+   Form1.Show
+
+
+End
+
+Public Sub Menu2_Click()
+
+  penggunaan.Show
+
+End

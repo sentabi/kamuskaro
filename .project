@@ -1,0 +1,23 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.2.1
+Title=Kamus Karo v0.1
+Startup=FMain
+Version=0.0.1
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Component=gb.db
+Description="Aplikasi Kamus Karo\n\nAplikasi ini hanya bisa menerjemahkan dari kata bahasa indonesia ke Karo\n\nKamus Karo v0.01"
+TabSize=2
+Maintainer=Tommy Surbakti
+Vendor=Sentabi Corp
+Address=tommy@surbakti.net
+Url=http://www.surbakti.com/
+License=Freeware
+PackageName=kamuskaro-0.0.1
+CreateEachDirectory=1
+Packager=1
+Systems=fedora
+Menus=fedora:"Office/Word Processor"
+Categories=fedora:"Office;WordProcessor"
+Groups=fedora:"Applications/Productivity"

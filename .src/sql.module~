@@ -1,0 +1,14 @@
+' Gambas module file
+
+
+
+Public Procedure Connect()
+                $Con.Close()              ' Close the connection
+                $Con.Type = "MySQL"       ' Type of connection
+                $Con.Host = "localhost"   ' Name of the server
+                $Con.Login = "root"       ' User's name for the connection
+                $Con.Port = "3306"        ' Port to use in the connection, usually 3306
+                $Con.Name = "sentabi"      ' Name of the database we want to use
+                $Con.Password = "sentabi123" ' User's password
+                $Con.Open()               ' Open the connection
+       End

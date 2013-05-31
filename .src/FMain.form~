@@ -1,0 +1,81 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,65,42)
+  Font = Font["+1"]
+  Tag = "kamus, mysql"
+  NoTabFocus = True
+  Mouse = Mouse.Arrow
+  Drop = True
+  Expand = True
+  Text = ("Kamus Indonesia - Karo")
+  Icon = Picture["icon:/32/harddisk"]
+  Utility = True
+  { File Menu Menu1
+    Name = "File"
+    Text = ("File")
+    Shortcut = "Ctrl+E"
+    { Exit Menu Menu1
+      Name = "Exit"
+      Text = ("Exit")
+      Shortcut = "Ctrl+X"
+    }
+  }
+  { Help Menu Help
+    Name = "Help"
+    Text = ("Help")
+    Shortcut = "Ctrl+H"
+    { Menu2 Menu
+      Text = ("Cara Penggunaan")
+      Shortcut = "Ctrl+P"
+    }
+    { Tentang Menu Tentang
+      Name = "Tentang"
+      Action = "tentang.show"
+      Text = ("Tentang")
+      Shortcut = "Ctrl+T"
+    }
+  }
+  { Menu1 Menu Web
+    Name = "Menu1"
+    Text = ("Web")
+    Shortcut = "Ctrl+W"
+  }
+  { Label1 Label
+    MoveScaled(50,35.2222,24,4)
+    Font = Font["Ubuntu,11"]
+    Text = ("© 2006 -2012")
+  }
+  { arti TextArea
+    MoveScaled(1,7,63,29)
+    ToolTip = ("terjemahan kata")
+    ReadOnly = True
+    Wrap = True
+    ScrollBar = Scroll.Horizontal
+  }
+  { kata TextBox
+    MoveScaled(1,1,24,4)
+  }
+  { Button1 Button
+    MoveScaled(29,1,16,4)
+    Tracking = True
+    Drop = True
+    Text = ("terjemahkan")
+  }
+  { Label3 Label
+    MoveScaled(1,35.8889,30,3)
+    Text = ("Jumlah kata : ")
+  }
+  { Label2 Label
+    MoveScaled(15.7778,34.8889,24,5)
+  }
+}
+
+# Gambas Action File 3.0
+
+{ Actions
+  { Action tentang.show
+    Text = "Tentang"
+    Shortcut = "Ctrl+T"
+  }
+}

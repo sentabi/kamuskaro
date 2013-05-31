@@ -1,0 +1,65 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,61,48)
+  Text = ("Tentang")
+  Utility = True
+  { TextArea1 TextArea
+    MoveScaled(2,16,28,9)
+    NoTabFocus = True
+    Text = ("1. Chery Hugo Ginting\n2. Jhon Tarigan\n3. Melisanti Br Sembiring")
+    ReadOnly = True
+  }
+  { Label2 Label
+    MoveScaled(2,0,24,4)
+    Font = Font["Ubuntu,Bold,Underline,+1"]
+    Text = ("Programmer")
+  }
+  { TextArea2 TextArea
+    MoveScaled(2,4,28,6)
+    NoTabFocus = True
+    Text = ("Tommy Surbakti\ntommy@surbakti.com")
+    ReadOnly = True
+  }
+  { Label1 Label
+    MoveScaled(2,12,24,4)
+    Font = Font["Bold,Underline,+1"]
+    Text = ("Dokumentasi")
+  }
+  { Label3 Label
+    MoveScaled(31,0,24,4)
+    Font = Font["Ubuntu,Bold,Underline,+1"]
+    Text = ("Website")
+  }
+  { TextArea3 TextArea
+    MoveScaled(31,4,28,4)
+    NoTabFocus = True
+    Text = ("http://kamus.karo.or.id")
+    ReadOnly = True
+  }
+  { Label4 Label
+    MoveScaled(31,12,24,4)
+    Font = Font["Ubuntu,Bold,Underline,+1"]
+    Text = ("Kontak Admin")
+  }
+  { TextArea4 TextArea
+    MoveScaled(31,16,28,9)
+    NoTabFocus = True
+    Text = ("tommy@surbakti.net\nHP : 02293002065")
+    ReadOnly = True
+  }
+  { Label5 Label
+    MoveScaled(25,27,12,4)
+    Font = Font["Ubuntu,Bold,Underline,+1"]
+    Text = ("Donatur")
+  }
+  { TextArea5 TextArea
+    MoveScaled(8,32,48,14)
+    NoTabFocus = True
+    Text = ("1. Frederika Br Tarigan\n2. David Sentabi Surbakti\n3. - \n4. - \nuntuk menjadi donatur hubungi staff@karo.or.id")
+    ReadOnly = True
+  }
+  { MovieBox1 MovieBox
+    MoveScaled(54,26,16,16)
+  }
+}

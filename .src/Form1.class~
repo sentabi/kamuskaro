@@ -1,0 +1,14 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+  'Me.Center
+
+End
+
+Public Sub ScrollView1_MouseDown()
+
+  
+
+End

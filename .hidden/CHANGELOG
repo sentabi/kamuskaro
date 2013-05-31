@@ -1,0 +1,8 @@
+* Wed Sep 12 2012 Tommy Surbakti <tommy@surbakti.net> 0.0.1
+- Rilis Pertama
+- 1. Database berubah dari MySQL menjadi SQLite
+- 2. Dibuat dengan bahasa pemrograman Gambas
+- 3. Website http://www.surbakti.com
+- 4. Menampilkan error bila kata yang dicari tidak ditemukan
+- 5. menampilkan jumlah kata dalam database
+
