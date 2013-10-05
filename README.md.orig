@@ -6,7 +6,7 @@ Modifikasi Source Code
 yum install gambas3 sqlite3 -y
 ```
 
-dung e ban database gelarna `ikoer.db` bas `$HOME` contohna '/home/sentabi/ikoer.db', adina la lit databasena enda, la banci erdalan script enda :P
+dung e ban database gelarna ikoer.db bas $HOME, adina la lit databasena enda, la banci erdalan script enda :P
 
 Database
 =============
@@ -19,13 +19,7 @@ Misalken si download paket Fedora arah folder Fedora nari, dung e nginstalsa pak
 yum localinstall kamuskarojadi-0.0.1-1.noarch.rpm
 ```
 
-Programmer
-=============
--
-- 
 
-Contributor
-=============
--
--
+
+-. sentabi .-
 
