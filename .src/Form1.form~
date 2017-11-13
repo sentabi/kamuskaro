@@ -2,7 +2,7 @@
 
 { Form Form
   MoveScaled(0,0,61,48)
-  Text = ("Tentang")
+  Text = ("Kontributor Kamus Karo")
   Utility = True
   { TextArea1 TextArea
     MoveScaled(2,16,28,9)

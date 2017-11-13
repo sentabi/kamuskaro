@@ -12,3 +12,9 @@ Public Sub ScrollView1_MouseDown()
   
 
 End
+
+Public Sub TextArea3_KeyPress()
+
+  
+
+End

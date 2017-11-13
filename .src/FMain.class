@@ -12,7 +12,7 @@ End
 Public Sub Form_Open()
 Dim dataku As String
 con.Type = "sqlite3" 'type database
-con.Name = User.Home & "/ikoer.db" 'lokasi & nama file database
+con.Name = Application.Path & "/kamusdb" 'lokasi & nama file database
 con.Open
 Me.Center
 MyRS = con.Exec("SELECT COUNT(*)  as jumlah from kamus")

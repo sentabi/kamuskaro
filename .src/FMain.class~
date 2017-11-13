@@ -12,7 +12,7 @@ End
 Public Sub Form_Open()
 Dim dataku As String
 con.Type = "sqlite3" 'type database
-con.Name = User.Home & "/ikoer.db" 'lokasi & nama file database
+con.Name = "/kamusdb" 'lokasi & nama file database
 con.Open
 Me.Center
 MyRS = con.Exec("SELECT COUNT(*)  as jumlah from kamus")
@@ -32,7 +32,7 @@ Else
 MyRS = con.Exec("select * from kamus where indo='" & kata.Text & "'")
 arti.Insert(MyRS!karo)
 Catch
-  Message.Title = "Ikoernaga"
+  Message.Title = "Lit error"
 Message.error("" & kata.Text & " tidak ditemukan dalam database")
 'Message.error("saya", "makan", "ikan")
 Endif
